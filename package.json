@@ -1,5 +1,9 @@
 {
 	"devDependencies": {
+		"@types/phoenix": "github:mafredri/phoenix-typings#main",
 		"typescript": "^5.1.6"
+	},
+	"scripts": {
+		"dev": "tsc --watch"
 	}
 }

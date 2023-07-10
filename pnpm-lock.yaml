@@ -5,14 +5,37 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@types/lodash':
+    specifier: ^4.14.195
+    version: 4.14.195
+  '@types/phoenix':
+    specifier: github:mafredri/phoenix-typings#main
+    version: github.com/mafredri/phoenix-typings/3121b498d95d7838e86fa65dacd1fc768ba161a2
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
 
 packages:
 
+  /@types/lodash@4.14.195:
+    resolution: {integrity: sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==}
+    dev: true
+
   /typescript@5.1.6:
     resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
     engines: {node: '>=14.17'}
     hasBin: true
+    dev: true
+
+  /utility-types@3.10.0:
+    resolution: {integrity: sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==}
+    engines: {node: '>= 4'}
+    dev: true
+
+  github.com/mafredri/phoenix-typings/3121b498d95d7838e86fa65dacd1fc768ba161a2:
+    resolution: {commit: 3121b498d95d7838e86fa65dacd1fc768ba161a2, repo: git+ssh://git@github.com/mafredri/phoenix-typings.git, type: git}
+    name: '@types/phoenix'
+    version: 3.0.0
+    dependencies:
+      utility-types: 3.10.0
     dev: true

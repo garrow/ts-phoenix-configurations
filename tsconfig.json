@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2021"],
+    "module": "system",
+    "moduleResolution": "Node",
+    "outFile": "build/phoenix.js",
+    "strict": true,
+    "types": ["phoenix", "lodash"],
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*"]
+}
